@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Harshit_Yadav">
+	<meta name="refresh" content="30">
+	<meta name="keywords" content="form,Harshit_Yadav">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	#legend{
+		color:#19ff47;
+		font-size: 2vw;
+	}
+	#legenda{
+		color: #19ff47;
+		font-size: 2vw;
+	}
+</style>
+	<title>Fill_This_Form_Please</title>
+	<base href="C:\Users\H Y 2\Pictures" target="_parent">
+</head>
+<body style="color: white; background-color: hsla(0,0%,5%,0.9); font-family: DigifaceWide;">
+<h1 align="center" style="border: 1px solid rgba(0,255,100,0.1); background-color: rgba(0,255,100,0.1);">Lets create a form</h1>
+<center><form action="https://www.w3schools.com/action_page.php" autocomplete="autocomplete" method="post". target="_parent">
+	<fieldset style="border:2px solid blue; background-color: rgba(0,0,255,0.3);">
+		<legend id="legend">About You</legend>Enter Your Name Here:<input required autocomplete autofocus="autofocus" size="20" type="text" name="Name"><br><br>
+		Enter Your Phone Number<input type="Number" min="1111111111" max="9999999999" required name="Number">
+	Continent of yours:<select name="Continent">
+		<option value="Asia" selected>Asia</option>
+		<option value="Europe">Europe</option>
+		<option value="Australia">Australia</option>
+		<option value="North America">North America</option>
+		<option value="South America">South America</option>
+		<option value="Africa">Africa</option>
+		<option value="Antarctica">Antarctica</option>
+	</select><br>
+    <h3>Which Language Do You Prefer:</h3>
+    <input list="Language" type="list" name="Language">
+    <datalist id="Language">
+    	<option value="Hindi">
+    		<option value="English">
+    			<option value="Urdu">
+    </datalist><br><br><br>
+</fieldset>
+   <fieldset style="border:2px solid red; background-color: rgba(255,0,0,0.3);"><legend id="legenda">About Us</legend> How do you like the page:<br>
+   	<select size="1" name="rating">
+   		<option value="&#9733;">&#9733;</option>
+   		<option value="&#9733;&#9733;">&#9733;&#9733;</option>
+   		<option value="&#9733;&#9733;&#9733;">&#9733;&#9733;&#9733;</option>
+   		<option value="&#9733;&#9733;&#9733;&#9733;">&#9733;&#9733;&#9733;&#9733;</option>
+   		<option value="&#9733;&#9733;&#9733;&#9733;&#9733;" selected>&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+   	</select><br><br>
+   Enter your thoughts about us:<br>
+   <textarea rows="2" cols="10"></textarea><br><br></fieldset><br><br><br>
+   <button type="button" onclick='alert("Thank you for filling this form")'><input type="submit" style="border: none;"></button>
+</form>
+</center>
+</body>
+</html>
